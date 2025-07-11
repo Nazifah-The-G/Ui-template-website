@@ -193,10 +193,11 @@ min-height: 500px;
     padding: 100px 20px; 
     max-width: 1200px;
     margin: 0 auto;
-    text-align: center;
+    align-items: center;
 }
 
 .user-reviews-section h2 {
+    text-align:center;
     font-size: 44px;
     font-weight: 700;
     color: #333;
@@ -262,7 +263,11 @@ object-fit:cover;
 .date {
     font-size: 14px;
     color: #777;
-}
+   }
+   .name,.reviewer-pic{
+       justify-content: space-between;
+   }
+
 /*Newsletter-Section*/
 body {
     margin-right: 20px;
@@ -273,7 +278,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f8f9fe;
     padding: 6em 0;
  
 }
@@ -333,13 +337,12 @@ textarea {
     font-family: inherit;
     box-sizing: border-box;
     color: #333;
-    background-color: #fff;
+ 
 }
 
 input::placeholder,
 textarea::placeholder {
     color: #aaa;
-    font-size: 1em;
 }
 .submit-button {
     background-color: #6a5acd;
@@ -359,7 +362,7 @@ textarea::placeholder {
 }
 /*Footer Section*/
 .footer-section {
-    background-color: #f8f9fe;
+    background-color: white;
     padding: 6em 0;
     text-align: center;
     color: #333;
@@ -379,7 +382,7 @@ textarea::placeholder {
 }
 
 .footer-description {
-    font-size: 0.3em;
+    font-size: 1.1em;
     line-height: 1.6;
     margin: 0 auto 3em auto;
     max-width: 700px;
@@ -392,9 +395,11 @@ textarea::placeholder {
     display: flex;
     justify-content: center;
     gap: 2em;
-    color: dimgrey;
 }
-
+.footer-description{
+    color: dimgrey;
+    
+}
 .footer-nav li a {
     text-decoration: none;
     font-weight: 500;
