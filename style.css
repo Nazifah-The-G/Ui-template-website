@@ -86,4 +86,65 @@ min-height: 500px;
 .hero-content .stay-focused-button:hover {
     background-color: #5555d3;
     cursor:pointer;
+    /*see-it-section*/
+}
+.see-it-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 80px; 
+    flex-wrap: wrap; 
+}
+
+.see-it-action-content {
+    flex: 1;
+    min-width: 300px; 
+    text-align: left; 
+}
+
+.see-it-action-content h2 {
+    font-size: 44px; 
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 25px; 
+    line-height: 1.2;
+}
+
+.see-it-action-content p {
+    font-size: 19px; 
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 35px;
+}
+
+.see-it-action-content .launch-button {
+    background-color: #6a6aff;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.see-it-action-content .launch-button:hover {
+    background-color: #5555d3;
+    cursor:pointer;
+}
+
+.see-it-action-pic {
+    border-radius: 15px; 
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15); 
+}
+
+.see-it-action-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
 }
