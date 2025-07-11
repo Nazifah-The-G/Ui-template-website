@@ -357,3 +357,51 @@ textarea::placeholder {
     background-color: #584a9e;
     
 }
+/*Footer Section*/
+.footer-section {
+    background-color: #f8f9fe;
+    padding: 6em 0;
+    text-align: center;
+    color: #333;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer-logo h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #4a5acd;
+    margin: 0 0 2rem 0;
+}
+
+.footer-description {
+    font-size: 0.3em;
+    line-height: 1.6;
+    margin: 0 auto 3em auto;
+    max-width: 700px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    color: dimgrey;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+    color: dimgrey;
+}
+
+.footer-nav li a:hover {
+    color: #4a5acd;
+}
