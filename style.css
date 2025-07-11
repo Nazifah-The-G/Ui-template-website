@@ -2,8 +2,7 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8fa; 
-    color: #333;
+    
 }
 
 /* Hero Section */
@@ -13,7 +12,6 @@ body {
     color: #fff; 
     text-align: center;
     padding: 120px 20px 80px; 
-min-height: 500px;
 }
 
 .nav {
@@ -23,7 +21,7 @@ min-height: 500px;
     align-items: center;
     
     max-width: 1200px; 
-    margin: 0 25px;
+    margin: 0 auto;
     padding: 20px; 
     width: 100%; 
     
@@ -62,7 +60,7 @@ min-height: 500px;
     line-height: 1.2;
 }
 
-.hero-content .tagline {
+.tagline {
     font-size: 20px; 
     margin-top: 25px;
     color: #555;
@@ -263,7 +261,7 @@ object-fit:cover;
 .date {
     font-size: 14px;
     color: #777;
-   }
+     }
    .name,.reviewer-pic{
        justify-content: space-between;
    }
