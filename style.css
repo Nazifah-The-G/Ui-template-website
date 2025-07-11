@@ -1,0 +1,89 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8fa; 
+    color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('Hero-bg.png'); 
+    background-position: center;
+    color: #fff; 
+    text-align: center;
+    padding: 120px 20px 80px; 
+min-height: 500px;
+}
+
+.nav {
+    display: flex;
+    color:#42445A;
+    justify-content: space-between; 
+    align-items: center;
+    
+    max-width: 1200px; 
+    margin: 0 25px;
+    padding: 20px; 
+    width: 100%; 
+    
+}
+
+.logo {
+    font-size: 30px; 
+    font-weight:900;
+    font-family: 'Roboto', sans-serif;
+    color: darkblue;
+}
+.sign-up-button {
+    background-color: #6a6aff; 
+    color: white;
+    padding: 12px 25px; text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.sign-up-button:hover {
+    background-color: #5555d3;
+    cursor:pointer ;
+}
+
+.hero-content {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.hero-content h1 {
+    font-size: 56px; 
+    font-weight: 700;
+    margin-top: 40px; 
+    color: #333; 
+    line-height: 1.2;
+}
+
+.hero-content .tagline {
+    font-size: 20px; 
+    margin-top: 25px;
+    color: #555;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-content .stay-focused-button {
+    background-color: #6a6aff; 
+    color: white;
+    padding: 15px 30px; 
+    border-radius: 8px; 
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 40px; 
+    display: inline-block;
+
+}
+
+.hero-content .stay-focused-button:hover {
+    background-color: #5555d3;
+    cursor:pointer;
+}
