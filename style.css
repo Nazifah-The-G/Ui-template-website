@@ -242,7 +242,7 @@ body {
 .reviewer-info {
     display: flex;
     flex-direction:row;
-    gap:25px
+    gap:25px;
     }
 
 .reviewer-pic {
